@@ -1,0 +1,158 @@
+
+/* Navbar-Section */
+
+.brand{
+    margin-left: 3rem;
+    font-family: 'Eczar',
+    serif;
+    font-size: 1.5rem !important;
+}
+
+
+
+.navbar {
+    z-index: 9999;
+    overflow: hidden;
+    background-color: #ff9595;
+    text-decoration: none;
+    position: fixed !important;
+    top: 0;
+    width: 100%;
+}
+
+.navbar-list-container{
+    font-family: 'Lora', serif;
+    margin-left: 55% ;
+    text-align: right;
+}
+
+.navbar-list{
+    text-align: right;
+}
+
+/* jumbotron Section */
+
+.jumbotron {
+    padding: 0 !important;
+    margin: 0 0 5rem 0 !important;
+    position: relative !important;
+}
+
+.bgimage{
+    width: 100%;
+    height: 70% !important;
+    opacity: 0.9;
+}
+
+#caption-1 {
+    width: 100%;
+    text-align: center;
+    background-color: #1C5D60;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    right: 0%;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Montserrat', serif;
+    animation-name: caption-fade;
+    animation-duration: 2s;
+}
+
+@keyframes caption-fade {
+    0% {
+        opacity: 0;
+        top: 0;
+    }
+
+    100% {
+        opacity: 1;
+        top: 40%;
+    }
+}
+
+.caption-para{
+    color: #fff;
+    position: absolute;
+    top: 60%;
+    font-size: 1.25rem;
+    text-align: center;
+    left: 43%;
+    font-family: 'Lora', serif;
+}
+
+/* About Section */
+
+#about-img{
+    height: 11rem;
+    float: right;
+    box-shadow: 5px 5px 8px black;
+    margin: 1rem;
+}
+
+#about{
+    margin: 0 5rem 5rem 5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Lora', serif;
+}
+
+/* services section */
+
+#services{
+    margin: 5rem 0 5rem 1rem;
+}
+
+h2{
+    color: #32354b;
+    text-align: center;
+    font-family: 'Montserrat',
+    serif;
+    margin: 2.5rem !important;
+}
+
+.card{
+    margin: 0 -8rem 0 8rem;
+    display: inline-block !important;
+    flex-direction: row;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+.card-title{
+    font-family: 'Lora', serif;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: #ff9595;
+    bottom: 0;
+    padding: 0;
+    text-align: center;
+    line-height: 3rem;
+}
+
+#footer-img {
+    width: 100%;
+    height: 6rem !important;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-heading {
+    font-family: 'Montserrat', serif;
+    color: white;
+    bottom: 6.8rem !important;
+    position: relative;
+}
+
+.social-icon {
+    color: black;
+    margin: 0.5rem 1.5rem !important;
+}
+
+.social-icon :hover {
+    color: white;
+}
+
